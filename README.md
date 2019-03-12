@@ -13,12 +13,17 @@ string as key-values, if any body: //request body, if any duration: //time taken
 You are to wait randomly between 15 to 30 seconds before sending back a response to any request. The
 random response time you choose is what needs to be populated in the duration field.
 
+
 ### Endpoint 2 (/stats)
 - This endpoint must respond with the following real-time statistics:
-● Total number of requests made since server startup and the average response time, classified by
-HTTP method.
-● Active number of requests, classified by HTTP method (eg: 3 GET requests, 4 POST requests, 5
-PUT requests)
-● Number of requests and average response times, in the past hour, classified by HTTP method
-● Number of requests and average response times, in the past minute, classified by HTTP method
+  - Total number of requests made since server startup and the average response time, classified by HTTP method.
+  - Active number of requests, classified by HTTP method (eg: 3 GET requests, 4 POST requests, 5 PUT requests)
+  - Number of requests and average response times, in the past hour, classified by HTTP method
+  - Number of requests and average response times, in the past minute, classified by HTTP method
 
+
+## How To Start
+- Install dependencies from requirements.txt
+- Run the following commands:-
+  - py manage.py migrate
+  - py manage.py runserver
