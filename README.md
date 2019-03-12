@@ -15,10 +15,10 @@ random response time you choose is what needs to be populated in the duration fi
 
 ### Endpoint 2 (/stats)
 - This endpoint must respond with the following real-time statistics:
-- ● Total number of requests made since server startup and the average response time, classified by
+● Total number of requests made since server startup and the average response time, classified by
 HTTP method.
-- ● Active number of requests, classified by HTTP method (eg: 3 GET requests, 4 POST requests, 5
+● Active number of requests, classified by HTTP method (eg: 3 GET requests, 4 POST requests, 5
 PUT requests)
-- ● Number of requests and average response times, in the past hour, classified by HTTP method
-- ● Number of requests and average response times, in the past minute, classified by HTTP method
+● Number of requests and average response times, in the past hour, classified by HTTP method
+● Number of requests and average response times, in the past minute, classified by HTTP method
 
